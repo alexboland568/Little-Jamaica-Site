@@ -1,0 +1,40 @@
+
+#location-heading {
+
+    grid-area: heading;
+
+    width: 30vw;
+    margin: 5%;
+
+    justify-self: center;
+    align-self: center;
+
+    
+
+
+}
+
+#location-heading h1 {
+
+    text-align: center;
+   
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+    padding: 10px;
+    
+}
+
+#location-map {
+
+    grid-area: body;
+
+    width: 75%;
+    height: 35vh;
+
+    justify-self: center;
+    align-self: center;
+
+    margin-bottom: 5%;
+
+}
