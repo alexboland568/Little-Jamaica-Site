@@ -7,21 +7,17 @@
         <link rel = "stylesheet" type = "text/css" href = "css/contact.css">
     </head>
     <body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script>$(document).ready(function() {
+            $("#header").load("shtml/header.shtml");
+            $("#footer").load("shtml/footer.shtml");
+        });
+        </script>
+
         <div class = "container">
             <div id = "header">
-                <div id = "logo">
-                    <img src = "img/logo.png">
-                </div>
-                <div id = "navbar">
-                    <ul>
-                        <li><a href = "/contact">Contact Us</a></li>
-                        <li><a href = "/apply">Apply</a></li>
-                        <li><a href = "/team">Our Team</a></li>
-                        <li><a href = "/location">Location</a></li>
-                        <li><a href = "/menu">Menu</a></li>
-                        <li><a href = "/">Home</a></li>
-                    </ul>
-                </div>
+                
             </div>
             <div id = "main-content">
                 <div id = "banner">
@@ -32,25 +28,18 @@
                 </div>
 
                 <div id = "contact-form">
+
+                    <h1 style = "text-align: center;">Contact Us!</h1>
                     <form>
-
-                        <fieldset>
-                            
-                            <legend>Contact Us</legend>
-
-                            <label for = "fname" class = "contact-label">First Name</label><br>
-                            <input type = "text" placeholder = "Enter your first name" id = "fname"><br>
-                            <label for = "lname" class = "contact-label">Last Name</label><br>
-                            <input type = "text" placeholder = "Enter your last name" id = "lname"><br>
-                            <label for = "email" class = "contact-label">Email</label><br>
-                            <input type = "text" placeholder = "Enter your email" id = "email"><br>
-                            <label for = "comment" class = "contact-label">Comment</label><br>
-                            <textarea cols="80" rows = "10" required id = "comment">
-                                
-                            </textarea>
-                            <input type = "submit" value = "Submit">
-
-                        </fieldset>
+                        <label for = "fname" class = "contact-label">First Name</label><br>
+                        <input type = "text" placeholder = "Enter your first name" id = "fname"><br>
+                        <label for = "lname" class = "contact-label">Last Name</label><br>
+                        <input type = "text" placeholder = "Enter your last name" id = "lname"><br>
+                        <label for = "email" class = "contact-label">Email</label><br>
+                        <input type = "text" placeholder = "Enter your email" id = "email"><br>
+                        <label for = "comment" class = "contact-label">Comment</label><br>
+                        <textarea cols="80" rows = "10" required id = "comment"></textarea>
+                        <input type = "submit" value = "Submit">
 
                     </form>
                 </div>
@@ -60,37 +49,7 @@
 
             <div id = "footer">
 
-                <div id = "footer-hours">
-
-                    <h1 class = "footer-heading">Hours</h1>
-                    <h3 class = "footer-body">Monday: 9:00AM - 7:00PM</h3>
-                    <h3 class = "footer-body">Tuesday: 9:00AM - 7:00PM</h3>
-                    <h3 class = "footer-body">Wednesday: 9:00AM - 7:00PM</h3>
-                    <h3 class = "footer-body">Thursday: 9:00AM - 7:00PM</h3>
-                    <h3 class = "footer-body">Friday: 9:00AM - 9:00PM</h3>
-                    <h3 class = "footer-body">Saturday: 9:00AM - 9:00PM</h3>
-                    <h3 class = "footer-body">Sunday: 11:00AM - 4:00PM</h3>
-
-                </div>
-
-                <div id = "footer-contact">
-
-                    <h1 class = "footer-heading">Contact</h1>
-                    <div class = "footer-contact-body">
-                        <img src = "img/instagram.png" class = "footer-icons">
-                        <img src = "img/snapchat.png" class = "footer-icons">
-                        <img src = "img/facebook.png" class = "footer-icons">
-                    </div> 
-
-                </div>
-
-                <div id = "footer-newsletter">
-
-                    <h1 class = "footer-heading">Newsletter</h1>
-                    <input type = "text" id = "newsletter-input" placeholder = "Enter your email">
-                    <input type = "button" value = "SUBSCRIBE" id = "newsletter-button">
-                </div> 
-
+                
             </div>
         </div>
     </body>

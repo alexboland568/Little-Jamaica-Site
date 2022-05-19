@@ -6,22 +6,19 @@
         <link rel = "stylesheet" type = "text/css" href = "css/style.css">
     </head>
     <body>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script>$(document).ready(function() {
+            $("#header").load("shtml/header.shtml");
+            $("#footer").load("shtml/footer.shtml");
+        });
+        </script>
+
         <div class = "container">
             <div id = "header">
-                <div id = "logo">
-                    <img src = "img/logo.png">
-                </div>
-                <div id = "navbar">
-                    <ul>
-                        <li><a href = "/contact">Contact Us</a></li>
-                        <li><a href = "/apply">Apply</a></li>
-                        <li><a href = "/team">Our Team</a></li>
-                        <li><a href = "/location">Location</a></li>
-                        <li><a href = "/menu">Menu</a></li>
-                        <li><a href = "/">Home</a></li>
-                    </ul>
-                </div>
+
             </div>
+
             <div id = "main-content">
                 <div id = "banner">
                     <h1 id = "banner-heading">Little Jamaica Restaurant and Lounge</h1>
@@ -30,16 +27,14 @@
 
                 </div>
 
-                <div id = "intro">
+                <div class = "heading">
                     <h1>Ranked #1 Caribbean Restaurant in Killeen Texas</h1>
                     <p>Little Jamaica Restaurant and Lounge is a black-owned family
                         restaurant that opened up to the general public on February
                         1st, 2020. Despite opening right before Covid hit America, 
                         Little Jamaica has seen massive success with its authentic 
                         Caribbean food prepared by Jamaican chefs. Little Jamaica 
-                        also believes that the customer is always right. If we do 
-                        ever get your order wrong, you can count on us getting it 
-                        right the next time!
+                        strongly -believes that the customer is always right.
                     </p>
                 </div>
 
@@ -60,41 +55,11 @@
 
             <div id = "footer">
 
-                <div id = "footer-hours">
-
-                    <h1 class = "footer-heading">Hours</h1>
-                    <h3 class = "footer-body">Monday: 9:00AM - 7:00PM</h3>
-                    <h3 class = "footer-body">Tuesday: 9:00AM - 7:00PM</h3>
-                    <h3 class = "footer-body">Wednesday: 9:00AM - 7:00PM</h3>
-                    <h3 class = "footer-body">Thursday: 9:00AM - 7:00PM</h3>
-                    <h3 class = "footer-body">Friday: 9:00AM - 9:00PM</h3>
-                    <h3 class = "footer-body">Saturday: 9:00AM - 9:00PM</h3>
-                    <h3 class = "footer-body">Sunday: 11:00AM - 4:00PM</h3>
-
-                </div>
-
-                <div id = "footer-contact">
-
-                    <h1 class = "footer-heading">Contact</h1>
-                    <div class = "footer-contact-body">
-                        <a href = "https://www.instagram.com/littlejamaicakilleen/"><img src = "img/instagram.png" class = "footer-icons"></a>
-                        <a href = "http://snapchat.com/add/littlejamaicarestaurant"><img src = "img/snapchat.png" class = "footer-icons"></a>
-                        <a href = "https://www.facebook.com/Little-Jamaica-Restaurant-and-Lounge-107161144131941/?ref=page_internal"><img src = "img/facebook.png" class = "footer-icons"></a>
-                    </div> 
-
-                </div>
-
-                <div id = "footer-newsletter">
-
-                    <h1 class = "footer-heading">Newsletter</h1>
-                    <input type = "text" id = "newsletter-input" placeholder = "Enter your email">
-                    <input type = "button" value = "SUBSCRIBE" id = "newsletter-button" onclick="subscribe_newsletter()">
-                </div> 
+                
 
             </div>
         </div>
 
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src = "js/script.js"></script>
     </body>
 </html>

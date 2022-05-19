@@ -1,0 +1,15 @@
+<div id = "logo">
+    <img src = "img/logo.png">
+</div>
+
+<div id = "navbar">
+    <ul>
+        <li><a href = "/contact">Contact Us</a></li>
+        <li><a href = "/review">Reviews</a></li>
+        <li><a href = "/apply">Apply</a></li>
+        <li><a href = "/team">Our Team</a></li>
+        <li><a href = "/location">Location</a></li>
+        <li><a href = "/menu">Menu</a></li>
+        <li><a href = "/">Home</a></li>
+    </ul>
+</div>
