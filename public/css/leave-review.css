@@ -1,0 +1,75 @@
+#leave-review {
+
+    grid-area: body;
+
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+
+    margin: 5%;
+
+}
+
+#review-form {
+
+    text-align: center;
+
+}
+
+
+form input {
+
+    margin: 12px;
+    padding: 12px;
+
+    width: 80%;
+
+    box-sizing: border-box;
+
+
+}
+
+form input[type="submit"] {
+
+    background-color: white;
+
+    border: 1px solid black;
+
+}
+
+form input[type="submit"]:hover {
+
+    background-color: #ebebe0;
+    cursor: grab;
+
+}
+
+#review-comment {
+
+    width: 80%;
+
+    resize: none;
+
+    box-sizing: border-box;
+    
+    margin: 12px;
+
+}
+
+.checked {
+
+    margin: 6px;
+
+}
+
+.checked:hover {
+
+    cursor: grab;
+        
+}
+
+label {
+
+    margin: 12px;
+
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+    <head>
+        <title>Little Jamaica Restaurant and Lounge</title>
+        <link rel = "icon" href = "img/logo.png">
+        <link rel = "stylesheet" type = "text/css" href = "css/style.css">
+        <link rel = "stylesheet" type = "text/css" href = "css/leave-review.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script>$(document).ready(function() {
+            $("#header").load("shtml/header.shtml");
+            $("#footer").load("shtml/footer.shtml");
+        });
+        </script>
+
+        <div class = "container">
+            <div id = "header">
+
+            </div>
+
+            <div id = "main-content">
+
+                <div id = "banner">
+                    <h1 id = "banner-heading">Little Jamaica Restaurant and Lounge</h1>
+
+                    <img src = "img/Jerk Chicken Plate.webp">
+
+                </div>
+
+                <div class = "heading">
+                    <h1>Leave a Review</h1>
+                </div>
+
+                <div id = "leave-review">
+
+                    <form id = "review-form">
+
+                        <label for = "fname">First Name</label><br>
+                        <input type = "text" id = "fname" placeholder = "Enter your first name"><br>
+                        <label for = "lname">Last Name</label><br>
+                        <input type = "text" id = "lname" placeholder = "Enter your last name"><br>
+                        <label for = "email">Email</label><br>
+                        <input type = "text" id = "email" placeholder = "Enter your email"><br>
+                        <label for = "review-comment">Comment</label><br>
+                        <textarea cols="80" rows = "10" required id = "review-comment"></textarea><br>
+                        <label for = "image">Image (Optional)</label><br>
+                        <input type = "file" id = "image" multiple="false" accept = "image/*"><br>
+                        <label>Rating</label><br>
+                        <span class="fa fa-star checked" id = "rating-one"></span>
+                        <span class="fa fa-star checked" id = "rating-two"></span>
+                        <span class="fa fa-star checked" id = "rating-three"></span>
+                        <span class="fa fa-star checked" id = "rating-four"></span>
+                        <span class="fa fa-star checked" id = "rating-five"></span><br>
+                        <input type = "submit"><br>
+                    </form>
+
+                </div>
+
+                
+            </div>
+
+            <div id = "footer">
+
+                
+
+            </div>
+        </div>
+
+        <script src = "js/leave-review.js"></script>
+    </body>
+</html>

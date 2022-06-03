@@ -1,4 +1,4 @@
-#contact-form {
+#contact-div {
 
     grid-area: body;
 
@@ -10,7 +10,7 @@
 
 }
 
-#contact-form form {
+#contact-form {
 
    text-align: center;
 
@@ -42,6 +42,7 @@ form input[type="submit"]:hover {
     cursor: grab;
 
 }
+
 
 #comment {
 

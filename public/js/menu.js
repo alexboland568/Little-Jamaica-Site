@@ -1,3 +1,7 @@
+ackee_imgs = ["img/menu/ackee.jpg", "img/menu/ackee2.png"];
+
+var index = 0;
+
 $(".container").click(function(evt) {
 
     if (evt.target.id == "ackee-img")
@@ -28,3 +32,30 @@ $("#ackee-img").click(function() {
 
 })
 
+function scrollGallery(item) {
+
+    setInterval(function() {
+
+        console.log(index);
+
+        
+
+        if (item == "ackee") {
+
+            $("#menu-gallery-img").attr("src", ackee_imgs[index]);
+
+        }
+
+        if (index == ackee_imgs.length - 1)
+        index = 0; 
+
+        index += 1;
+
+        
+        
+
+
+    }, 3000);
+    
+
+}

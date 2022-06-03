@@ -1,0 +1,54 @@
+#apply-form {
+
+    grid-area: body;
+
+    width: 50%;
+    justify-self: center;
+    align-self: center;
+
+    margin: 5%;
+
+}
+
+
+#apply-form form {
+
+    text-align: center;
+ 
+ }
+ 
+ form input {
+ 
+     margin: 12px;
+     padding: 12px;
+ 
+     width: 80%;
+ 
+     box-sizing: border-box;
+ 
+ 
+ }
+
+ form select {
+
+    margin: 12px;
+    padding: 12px;
+    width: 80%;
+        
+ }
+ 
+ form input[type="submit"] {
+ 
+     background-color: white;
+ 
+     border: 1px solid black;
+ 
+ }
+
+ form input[type="submit"]:hover {
+ 
+     background-color: #ebebe0;
+     cursor: grab;
+ 
+ }
+

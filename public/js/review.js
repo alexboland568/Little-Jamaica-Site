@@ -1,0 +1,7 @@
+reviews = [];
+
+$(document).ready(function() {
+
+
+
+})

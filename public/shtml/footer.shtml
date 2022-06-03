@@ -28,5 +28,7 @@
 
     <h1 class = "footer-heading">Newsletter</h1>
     <input type = "text" id = "newsletter-input" placeholder = "Enter your email">
-    <input type = "button" value = "SUBSCRIBE" id = "newsletter-button" onclick="subscribe_newsletter()">
-</div> 
+    <input type = "button" value = "SUBSCRIBE" id = "newsletter-button">
+</div>
+
+<script src = "js/footer.js"></script>

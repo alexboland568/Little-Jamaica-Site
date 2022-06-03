@@ -4,6 +4,7 @@
         <title>Little Jamaica Restaurant and Lounge</title>
         <link rel = "icon" href = "img/logo.png">
         <link rel = "stylesheet" type = "text/css" href = "css/style.css">
+        <link rel = "stylesheet" type = "text/css" href = "css/apply.css">
     </head>
     <body>
 
@@ -26,6 +27,54 @@
 
                 </div>
 
+                <div class = "heading">
+                    <h1>Apply Here</h1>
+                </div>
+
+                <div id = "apply-form">
+                    <form id = "apply" action = "/applicant/success" method = "GET">
+                        <label for = "first-name">First Name</label><br>
+                        <input type = "text" id = "first-name" placeholder = "Enter your first name"><br>
+                        <label for = "last-name">Last Name</label><br>
+                        <input type = "text" id = "last-name" placeholder = "Enter your last name"><br>
+                        <label for = "age">Age</label><br>
+                        <input type = "text" id = "age" placeholder = "Enter your age"><br>
+                        <label for = "email">Email</label><br>
+                        <input type = "text" id = "email" placeholder = "Enter your email"><br>
+                        <label for = "address">Address</label><br>
+                        <input type = "text" id = "address" placeholder = "Enter your address"><br>
+                        <label for = "city-state-zip">City, State, Zipcode</label><br>
+                        <input type = "text" id = "city-state-zip" placeholder = "Enter your city, state, and zipcode (Ex: Killeen, TX 76549)"><br>
+                        <label for = "position">Position</label><br>
+                        <select name = "position" id = "position">
+                            <option value = "Server">Server</option>
+                            <option value = "Sharer">Sharer</option>
+                        </select><br>
+                        <label for = "where">Where did you hear about this job?</label><br>
+                        <input type = "text" id = "where" placeholder = "Ex. Indeed"><br>
+                        <label for = "what-experience">What restaurant experience do you have?</label><br>
+                        <input type = "text" id = "what-experience" placeholder = "Enter your experience"><br>
+                        <label for = "why">Why do you want this job?</label><br>
+                        <input type = "text" id = "why" placeholder = "Enter your reason for applying"><br>
+                        <label for = "what-standout">What makes you stand out?</label><br>
+                        <input type = "text" id = "what-standout" placeholder = "Enter the reason you standout"><br>
+                        <label for = "work-teammates">How do you work with your teammates?</label><br>
+                        <input type = "text" id = "work-teammates" placeholder = "Enter how you work with your coworkers"><br>
+                        <label for = "work-customers">How do you work with difficult customers?</label><br>
+                        <input type = "text" id = "work-customers" placeholder = "Enter how you work with difficult customers"><br>
+                        <label for = "work-environment">How do you handle discourse in the work environment?</label><br>
+                        <input type = "text" id = "work-environment" placeholder = "Enter how you handle discourse in the work environment"><br>
+                        <label for = "availability">What is your availability like?</label><br>
+                        <input type = "text" id = "availability" placeholder = "Enter your availability to work"><br>
+                        <label for = "desired-wage">What is your desired wage?</label><br>
+                        <input type = "text" id = "desired-wage" placeholder = "Enter your desired wage"><br>
+                        <label for = "when-start">When can you start?</label><br>
+                        <input type = "text" id = "when-start" placeholder = "Enter the date you can start"><br>
+                        <label for = "resume">Resume (optional)</label><br>
+                        <input type = "file" id = "resume"><br>
+                        <input type = "submit" value = "Submit">
+                    </form>
+                </div>
                 
                 
             </div>
@@ -36,5 +85,6 @@
 
             </div>
         </div>
+        <script src = "js/apply.js"></script>
     </body>
 </html>

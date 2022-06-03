@@ -1,11 +1,17 @@
-<div id = "menu-gallery-img">
+<div id = "menu-gallery-img-div">
 
-    <img src = "img/menu/ackee.jpg">
+    <img src = "img/menu/ackee.jpg" id = "menu-gallery-img">
 
 </div>
 
 <div id = "menu-gallery-description">
 
-    <p>Ackee & Saltfish is a traditional breakfast Jamaican dish that is very very good</p>
+    <p>Ackee & Saltfish is a traditional breakfast Jamaican dish that is very popular
+        in Caribbean culture. Ackee is a fruit that grows on Evergreen trees year round 
+        in Jamaica. Ackee is also revered as the national fruit in Jamaica. Saltfish is 
+        a cod-like fish that is very salty and completely dry. The saltfish has to be 
+        boiled prior to cooking the ackee to remove most of the salt and to give the fish
+        some moisture.
+    </p>
     
 </div>

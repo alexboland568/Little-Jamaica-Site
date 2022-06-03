@@ -171,8 +171,6 @@ body {
     margin: 3%;
     width: 30vw;
 
-   
-
 }
 
 .heading h1 {
@@ -236,6 +234,8 @@ body {
 #footer-hours {
 
     grid-area: hours;
+
+    justify-self: center;
 
 }
 
@@ -301,7 +301,6 @@ body {
 .footer-hours-body {
 
     color: white;
-    text-align: center;
     font-size: 12px;
 
 }

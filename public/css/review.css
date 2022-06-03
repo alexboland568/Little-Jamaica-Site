@@ -1,0 +1,177 @@
+
+
+        #review {
+
+            grid-area: body;
+        
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+        
+            grid-template-areas:
+            
+        
+            "review0"
+        
+        
+        
+            "review1"
+        
+        
+        
+            "review2"
+        
+        
+        
+            "review3"
+        
+        
+        
+            "review4"
+        
+        
+        
+            "review5"
+        
+        ;
+            width: 60%;
+        
+        
+        }
+        
+        
+        
+            #reviews0 {
+            
+                grid-area: review0;
+            
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 30% 1fr;
+                grid-template-areas: "name rating"
+                                    "comment comment";
+                margin: 5px;
+            
+            }
+        
+        
+        
+            #reviews1 {
+            
+                grid-area: review1;
+            
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 30% 1fr;
+                grid-template-areas: "name rating"
+                                    "comment comment";
+                margin: 5px;
+            
+            }
+        
+        
+        
+            #reviews2 {
+            
+                grid-area: review2;
+            
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 30% 1fr;
+                grid-template-areas: "name rating"
+                                    "comment comment";
+                margin: 5px;
+            
+            }
+        
+        
+        
+            #reviews3 {
+            
+                grid-area: review3;
+            
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 30% 1fr;
+                grid-template-areas: "name rating"
+                                    "comment comment";
+                margin: 5px;
+            
+            }
+        
+        
+        
+            #reviews4 {
+            
+                grid-area: review4;
+            
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 30% 1fr;
+                grid-template-areas: "name rating"
+                                    "comment comment";
+                margin: 5px;
+            
+            }
+        
+        
+        
+            #reviews5 {
+            
+                grid-area: review5;
+            
+                display: grid;
+                grid-template-columns: 50% 50%;
+                grid-template-rows: 30% 1fr;
+                grid-template-areas: "name rating"
+                                    "comment comment";
+                margin: 5px;
+            
+            }
+        
+        
+
+        #review-name {
+        
+            grid-area: name;
+        
+            text-align: center;
+        }
+        
+        
+        #review-rating {
+        
+            grid-area: rating;
+        
+            text-align: center;
+        
+            align-self: center;
+        
+        
+        }
+        
+        #review-comment {
+        
+            border-top: 1px solid black;
+            grid-area: comment;
+        
+        
+        }
+
+        #review-button button {
+        
+            background-color: lightcoral;
+            padding: 12px;
+            margin: 12px;
+            justify-self: center;
+            align-self: center;
+        
+        }
+        
+        .checked {
+        
+            color: orange;
+        
+        }
+
+    
