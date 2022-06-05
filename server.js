@@ -541,13 +541,11 @@ console.log("Server running");
 
 var config = {
     host: "localhost",
-    port: 3306,
+    port: 3060,
     user: "littlejamaicakilleen",
     password: "Blewis98$$",
     database: "littlejamaica_website",
 };
-
-
 
 var conn = MySql.createConnection({
 
