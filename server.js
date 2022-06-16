@@ -4,7 +4,9 @@ const nodemailer = require("nodemailer");
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
-app.listen(3000);
+
+const port = process.env.PORT || 3000;
+app.listen(port);
 
 var MySql = require("mysql");
 var syncSql = require("sync-sql");
