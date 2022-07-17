@@ -2,6 +2,8 @@ ackee_imgs = ["img/menu/ackee.jpg", "img/menu/ackee2.png"];
 
 var index = 0;
 
+var hover = 100;
+
 $(".container").click(function(evt) {
 
     if (evt.target.id == "ackee-img")
@@ -17,20 +19,26 @@ $(".container").click(function(evt) {
 
 })
 
-$("#ackee-img").click(function() {
+$(".menu-img").hover(function() {
 
-    if ($("#menu-gallery").css("visibility") == "hidden") {
-
-        $("#menu-gallery").load("shtml/ackee.shtml");
-
-        $("#menu-gallery").css("visibility", "visible");
-
-        $("body").css("overflow-y", "hidden");
-
-    }
-
+    $(this).attr("opacity", "0.5")
 
 })
+
+// $("#ackee-img").click(function() {
+
+//     if ($("#menu-gallery").css("visibility") == "hidden") {
+
+//         $("#menu-gallery").load("shtml/ackee.shtml");
+
+//         $("#menu-gallery").css("visibility", "visible");
+
+//         $("body").css("overflow-y", "hidden");
+
+//     }
+
+
+// })
 
 function scrollGallery(item) {
 

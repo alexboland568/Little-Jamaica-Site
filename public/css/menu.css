@@ -294,16 +294,16 @@
 
 }
 
-.menu-img:hover {
+/* .menu-img:hover {
 
     cursor: grab;
     animation-name: menu-hover;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     
-}
+} */
 
-@keyframes menu-hover {
+/* @keyframes menu-hover {
 
     from {
         opacity: 1;
@@ -316,7 +316,7 @@
         height: auto;
     }
     
-}
+} */
 
 .menu-name {
 

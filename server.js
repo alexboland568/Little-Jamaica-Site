@@ -45,9 +45,9 @@ app.get("/location", function(req, res) {
 
 })
 
-app.get("/team", function(req, res) {
+app.get("/order", function(req, res) {
 
-    res.sendFile(__dirname + "/views/team.html");
+    res.sendFile(__dirname + "/views/order.html");
 
 })
 
