@@ -294,6 +294,13 @@
 
 }
 
+.menu-img:hover {
+
+    cursor: grab;
+    /* opacity: 0.5; */
+
+}
+
 /* .menu-img:hover {
 
     cursor: grab;
