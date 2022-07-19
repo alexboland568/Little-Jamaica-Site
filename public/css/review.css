@@ -13,6 +13,26 @@
                 
                     "review0"
                 
+                
+                
+                    "review1"
+                
+                
+                
+                    "review2"
+                
+                
+                
+                    "review3"
+                
+                
+                
+                    "review4"
+                
+                
+                
+                    "review5"
+                
                 ;
                     width: 60%;
                 
@@ -24,6 +44,81 @@
                     #reviews0 {
                     
                         grid-area: review0;
+                    
+                        display: grid;
+                        grid-template-columns: 50% 50%;
+                        grid-template-rows: 30% 1fr;
+                        grid-template-areas: "name rating"
+                                            "comment comment";
+                        margin: 5px;
+                    
+                    }
+                
+                
+                
+                    #reviews1 {
+                    
+                        grid-area: review1;
+                    
+                        display: grid;
+                        grid-template-columns: 50% 50%;
+                        grid-template-rows: 30% 1fr;
+                        grid-template-areas: "name rating"
+                                            "comment comment";
+                        margin: 5px;
+                    
+                    }
+                
+                
+                
+                    #reviews2 {
+                    
+                        grid-area: review2;
+                    
+                        display: grid;
+                        grid-template-columns: 50% 50%;
+                        grid-template-rows: 30% 1fr;
+                        grid-template-areas: "name rating"
+                                            "comment comment";
+                        margin: 5px;
+                    
+                    }
+                
+                
+                
+                    #reviews3 {
+                    
+                        grid-area: review3;
+                    
+                        display: grid;
+                        grid-template-columns: 50% 50%;
+                        grid-template-rows: 30% 1fr;
+                        grid-template-areas: "name rating"
+                                            "comment comment";
+                        margin: 5px;
+                    
+                    }
+                
+                
+                
+                    #reviews4 {
+                    
+                        grid-area: review4;
+                    
+                        display: grid;
+                        grid-template-columns: 50% 50%;
+                        grid-template-rows: 30% 1fr;
+                        grid-template-areas: "name rating"
+                                            "comment comment";
+                        margin: 5px;
+                    
+                    }
+                
+                
+                
+                    #reviews5 {
+                    
+                        grid-area: review5;
                     
                         display: grid;
                         grid-template-columns: 50% 50%;
@@ -78,5 +173,13 @@
                     color: orange;
                 
                 }
+
+                span {
+
+                    text-align: center;
+
+                }
+
+
         
             

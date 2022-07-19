@@ -1,0 +1,44 @@
+#delivery-apps {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "doordash ubereats grubhub";
+
+}
+
+.delivery-icons {
+
+    width: 100px;
+    height: auto;
+    margin: auto;
+
+}
+
+.delivery-icons:hover {
+
+    opacity: 0.5;
+
+}
+
+#doordash {
+
+    grid-area: doordash;
+    align-self: center;
+
+}
+
+#ubereats {
+
+    grid-area: ubereats;
+    align-self: center;
+
+}
+
+#grubhub {
+
+    grid-area: grubhub;
+    align-self: center;
+
+}

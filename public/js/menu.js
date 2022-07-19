@@ -25,9 +25,9 @@ setInterval(function() {
 
     if (hover) {
 
-        if (opacity > 0.5) {
+        if (opacity < 1) {
 
-            opacity -= 0.1;
+            opacity += 0.1;
 
         }
 
@@ -35,9 +35,11 @@ setInterval(function() {
 
     else {
 
-        if (opacity < 1) {
+        
 
-            opacity += 0.1;
+        if (opacity > 0.5) {
+
+            opacity -= 0.1;
 
         }
 
@@ -49,55 +51,16 @@ setInterval(function() {
 $(".menu-img").hover(function() {
 
     hover = true
+
+    $(this).css("opacity", String(opacity));
     
 
 }, function() {
 
     hover = false;
 
+    $(this).css("opacity", String(opacity));
+
     
 
 })
-
-// $("#ackee-img").click(function() {
-
-//     if ($("#menu-gallery").css("visibility") == "hidden") {
-
-//         $("#menu-gallery").load("shtml/ackee.shtml");
-
-//         $("#menu-gallery").css("visibility", "visible");
-
-//         $("body").css("overflow-y", "hidden");
-
-//     }
-
-
-// })
-
-function scrollGallery(item) {
-
-    setInterval(function() {
-
-        console.log(index);
-
-        
-
-        if (item == "ackee") {
-
-            $("#menu-gallery-img").attr("src", ackee_imgs[index]);
-
-        }
-
-        if (index == ackee_imgs.length - 1)
-        index = 0; 
-
-        index += 1;
-
-        
-        
-
-
-    }, 3000);
-    
-
-}
