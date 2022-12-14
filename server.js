@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 2000;
 app.listen(port);
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
@@ -186,7 +186,6 @@ app.get("/review", function(req, res) {
                 <div id = "reviews">
                     
                     ${user_content}
-                    <span id = "review_pages">${review_pages_joined}</span>
         
                 </div>
             

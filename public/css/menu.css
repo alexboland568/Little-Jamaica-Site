@@ -6,10 +6,11 @@
     grid-template-rows: auto auto auto auto auto;
     grid-template-areas: 
     "breakfast"
+    "soups"
     "chicken"
     "premium-meats"
     "sides"
-    "drinks"
+    "drinks";
 
 }
 
@@ -72,6 +73,48 @@
     align-self: center;
 
     
+
+}
+
+#menu-soup {
+
+    grid-area: soups;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30% 70%;
+
+    grid-template-areas: 
+    ". heading ."
+    "chicken-soup goat-soup red-peas-soup";
+
+    width: 70vw;
+
+    justify-self: center;
+    align-self: center;
+
+}
+
+#chicken-soup {
+
+    grid-area: chicken-soup;
+    justify-self: center;
+    align-self: center;
+
+}
+
+#goat-soup {
+
+    grid-area: goat-soup;
+    justify-self: center;
+    align-self: center;
+
+}
+
+#red-peas-soup {
+
+    grid-area: red-peas-soup;
+    justify-self: center;
+    align-self: center;
 
 }
 
