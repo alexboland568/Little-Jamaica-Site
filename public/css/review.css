@@ -9,30 +9,11 @@
                     grid-template-rows: 1fr;
                 
                     grid-template-areas:
-                    
-                
-                    "review0"
-                
-                ;
+                    ;
                     width: 60%;
                 
                 
                 }
-                
-                
-                
-                    #reviews0 {
-                    
-                        grid-area: review0;
-                    
-                        display: grid;
-                        grid-template-columns: 50% 50%;
-                        grid-template-rows: 30% 1fr;
-                        grid-template-areas: "name rating"
-                                            "comment comment";
-                        margin: 5px;
-                    
-                    }
                 
                 
         

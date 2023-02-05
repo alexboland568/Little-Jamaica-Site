@@ -68,82 +68,6 @@ function selectRating() {
 
 
     })
-
-
-    // $("#rating-one").hover(function() {
-
-    //     $("#rating-one").css("color", "orange");
-
-        
-
-    // }, function() {
-
-    //     $("#rating-one").css("color", "black");
-
-    // });
-
-    // $("#rating-two").hover(function() {
-
-    //     $("#rating-one").css("color", "orange");
-    //     $("#rating-two").css("color", "orange");
-
-        
-
-    // }, function() {
-
-    //     $("#rating-one").css("color", "black");
-    //     $("#rating-two").css("color", "black");
-
-    // });
-
-    // $("#rating-three").hover(function() {
-
-    //     $("#rating-one").css("color", "orange");
-    //     $("#rating-two").css("color", "orange");
-    //     $("#rating-three").css("color", "orange");
-
-    // }, function() {
-
-    //     $("#rating-one").css("color", "black");
-    //     $("#rating-two").css("color", "black");
-    //     $("#rating-three").css("color", "black");
-
-    // });
-
-    // $("#rating-four").hover(function() {
-
-    //     $("#rating-one").css("color", "orange");
-    //     $("#rating-two").css("color", "orange");
-    //     $("#rating-three").css("color", "orange");
-    //     $("#rating-four").css("color", "orange");
-
-    // }, function() {
-
-    //     $("#rating-one").css("color", "black");
-    //     $("#rating-two").css("color", "black");
-    //     $("#rating-three").css("color", "black");
-    //     $("#rating-four").css("color", "black");
-
-    // });
-
-    // $("#rating-five").hover(function() {
-
-    //     $("#rating-one").css("color", "orange");
-    //     $("#rating-two").css("color", "orange");
-    //     $("#rating-three").css("color", "orange");
-    //     $("#rating-four").css("color", "orange");
-    //     $("#rating-five").css("color", "orange");
-
-    // }, function() {
-
-    //     $("#rating-one").css("color", "black");
-    //     $("#rating-two").css("color", "black");
-    //     $("#rating-three").css("color", "black");
-    //     $("#rating-four").css("color", "black");
-    //     $("#rating-five").css("color", "black");
-
-    // });
-
 }
 
 $(document).ready(function() {
@@ -157,7 +81,6 @@ $(document).ready(function() {
         var email = $("#email").val();
         var comment = $("#review-comment").val();
         var image = $("#image").val();
-        console.log(image);
 
         var data = {
             fname: fname,
