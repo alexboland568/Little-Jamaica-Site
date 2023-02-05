@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 2000;
 app.listen(port);
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
@@ -35,7 +35,6 @@ app.get("/", function(req, res) {
 app.get("/menu", function(req, res) {
 
     res.sendFile(__dirname + "/views/menu.html");
-    console.log(req.body);
 
 })
 
@@ -169,6 +168,17 @@ app.get("/review", function(req, res) {
                 `);
         
             }
+
+            var review_page_count = Math.ceil(user_review_content.length / 5);
+            var review_pages = [];
+            for (var i = 0;i < review_page_count;i++) {
+
+                review_pages.push(i + 1);
+
+            }
+
+            var review_pages_joined = review_pages.join('');
+            console.log(review_pages_joined);
         
             var user_content = user_review_content.join('');
             var review_content = `
@@ -379,6 +389,14 @@ app.get("/review", function(req, res) {
                     color: orange;
                 
                 }
+
+                span {
+
+                    text-align: center;
+
+                }
+
+
         
             `;
         
@@ -428,8 +446,7 @@ app.post("/leave-a-review", function(req, res) {
         collection.insertOne(obj, function(err, res) {
 
             if (err) throw err;
-            console.log("Document inserted");
-            console.log(res);
+
 
         })
 
@@ -447,7 +464,6 @@ app.get("/contact", function(req, res) {
 
 app.get("/applicant", function(req, res) {
 
-    console.log(req.body);
     res.send(req.body);
 
 })
